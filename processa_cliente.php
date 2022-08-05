@@ -3,7 +3,7 @@
 //Constantes para armazenamento das variáveis de conexão.
 $host = "localhost";
 $user = "root";
-$pass = "147258çç";
+$pass = "";
 $dbname = "PDOPHP";
 
 try {
