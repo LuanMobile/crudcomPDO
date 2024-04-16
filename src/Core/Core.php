@@ -6,10 +6,6 @@ class Core
 {
     public static function dispatch(array $routes)
     {
-        // dd($routes);
-
-        // isset($_SERVER['REQUEST_URI']) ?? $_SERVER['REQUEST_URI'];
-
         $prefixController = "App\\Controllers\\";
 
         foreach ($routes as $route) {
